@@ -1,0 +1,5 @@
+{
+  "dependencies": {
+    "whatsapp-cloud-api": "^0.2.6"
+  }
+}
