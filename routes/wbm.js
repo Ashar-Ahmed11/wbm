@@ -2,7 +2,7 @@ const express = require('express')
 const router = express.Router()
 const { createBot } = require('whatsapp-cloud-api');
 
-router.post('/', async(req, res) => {
+router.get('/', async(req, res) => {
     try {
         // replace the values below
         const from = '117797241201373';
